@@ -8,7 +8,6 @@ if (!MONGO_URL) {
 }
 
 mongoose.connect(MONGO_URL);
-
 const db = mongoose.connection;
 
 db.on('error', (err) => {
