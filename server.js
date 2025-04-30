@@ -16,6 +16,7 @@ const notesRoutes=require('./routes/notesRoutes');
 
 const bodyParser=require('body-parser');
 // app.use(express.json()); // Middleware to parse json request body into JS objects
+
 app.use(bodyParser.json()) ;   // Middleware to parse any kind of data from req.body //json parser is one of its application //converts into JS object
                                     //and will store that object in req.body 
 
